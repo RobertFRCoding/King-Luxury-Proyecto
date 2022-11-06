@@ -1,5 +1,3 @@
-const { ethereum } = window
-
 export function Metamask () {
     const [conectar, setConnection] = useState("Connect")
     async function Connect() {
