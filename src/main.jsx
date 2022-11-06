@@ -5,6 +5,7 @@ import { Contact } from "./components/Contact";
 import { Services } from "./components/Services";
 import { Cars } from "./components/Services/Cars";
 import { Villas } from './components/Services/Villas';
+import { VillaAnna } from './components/VillaAnna';
 import { Yatchs } from './components/Services/Yatchs';
 import { Transfers } from './components/Services/Transfers';
 import { Chef } from "./components/Services/Chef";
@@ -39,7 +40,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path="Services" element={<Services></Services>}></Route>
             <Route path="Cars" element={<Cars></Cars>}></Route>
             <Route path="Villas" element={<Villas></Villas>}></Route>
-            <Route path="Yatchs" element={<Yatchs></Yatchs>}></Route>
+            <Route path="VillaAnna" element={<VillaAnna></VillaAnna>}></Route>
             <Route path="Chef" element={<Chef></Chef>}></Route>
             <Route path="Transfers" element={<Transfers></Transfers>}></Route>
             <Route path="Jets" element={<Jets></Jets>}></Route>

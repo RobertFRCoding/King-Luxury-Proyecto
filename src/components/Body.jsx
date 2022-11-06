@@ -130,6 +130,9 @@ export function Body () {
     </blockquote>
   </div>
 </div>
+<div className="m-5 mb-5 text-dark text-center d-flex justify-content-center">
+        <h1>Click in <Link to="/Collaborate" className=" mb-5 text-dark text-decoration-none"><img src="/src/images/logos/kls-no-background.svg" alt="" width="105" height="80"/></Link> if you'd like to know more about how to <Link to="/Collaborate" className="mb-5 text-dark text-decoration-none"><em>Collaborate</em></Link> with us.</h1>
+    </div>
 
 <Contact/>
 

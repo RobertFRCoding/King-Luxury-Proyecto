@@ -28,17 +28,16 @@ export function Collaborate  () {
   </div>
   <div className="col-10">
     <label for="inputCountry" className="form-label"></label>
-    <select id="inputCountry" className="shadow form-select">
+    <select id="inputCountry" className="shadow form-select"/>
       <option selected>Country*</option>
-      <option>Connect list?</option>
-    </select>
-<div class="mt-5 input-group mb-3">
-  <input type="file" class="shadow form-control" id="inputGroupFile02"/>
-  <label class="shadow input-group-text" for="inputGroupFile02">Upload</label>
+      <option>Connect list</option>
+<div className="mt-5 input-group mb-3">
+  <input type="file" className="shadow form-control" id="inputGroupFile02"/>
+  <label className="shadow input-group-text" for="inputGroupFile02">Upload</label>
 </div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">Request</label>
-  <textarea class="shadow form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+<div className="mb-3">
+  <label for="exampleFormControlTextarea1" className="form-label">Request</label>
+  <textarea className="shadow form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
   </div>
   
